@@ -39,3 +39,8 @@ ul > li {
     font-size: 0.8em;
 }
 
+ul > li:hover {
+    color: var(--color-strong);
+    transition: 2s;
+}
+
