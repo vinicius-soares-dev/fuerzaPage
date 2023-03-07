@@ -32,14 +32,15 @@ ul {
     gap: 1em;
 }
 
-ul > li {
+ul > li > .urlLink {
     font-family: var(--font-secundary);
     color: var(--color-font);
     cursor: pointer;
     font-size: 0.8em;
+    text-decoration: none;
 }
 
-ul > li:hover {
+ul > li > .urlLink:hover {
     color: var(--color-strong);
     transition: 2s;
 }
