@@ -1,11 +1,22 @@
-import Header from "../../components";
+import Header from "../../components/Nav";
+import MainContent from "../../components/MainContent/homeContents";
+
 
 function Home() {
     return(
-        <div>
-            <Header />
-            <h1>Voce esta na rota principal</h1>
-        </div>
+        <>
+            <div>
+                <Header />
+            </div>
+
+            <div>
+                <MainContent />
+            </div>
+        </>
+            
+        
+
+       
     )
 }
 
