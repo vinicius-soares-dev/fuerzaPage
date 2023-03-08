@@ -1,5 +1,34 @@
-h1 {
-    background-attachment: white;
+:root {
+    --font-main: 'Cormorant Garamond', serif;
+    --font-secundary: 'Poppins', sans-serif;
+    --color-font: #F2E7DC;
+    --color-strong: #D92525;
+}
+
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10em;
+}
+
+.main-content > .main-1stchildren > .logo {
+    width: 280px;
+}
+
+.main-content > .main-2ndchildren {
+    padding: 2em;
+}
+
+.main-content > .main-2ndchildren > h4 {
+    font-family: var(--font-secundary);
+    color: var(--color-strong);
     text-align: center;
-    padding: 180px;
+
+}
+
+.main-content > .main-2ndchildren > p {
+    font-family: var(--font-secundary);
+    color: var(--color-font);
 }
