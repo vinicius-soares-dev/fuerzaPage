@@ -1,9 +1,13 @@
 import Header from "../../components/Nav";
 import Logo from '../../assets/img/fuerzalogo.png'
-
+import * as React from 'react';
+import Typewriter from "typewriter-effect";
 
 
 function Home() {
+
+   
+
     return(
         <>
             <div>
@@ -18,6 +22,19 @@ function Home() {
                     <h4> Fuerza E-sports</h4>
                     <p>Organização de equipes e-sports, torneios e eventos relacionados.</p>
                 </div>
+
+            </div>
+            <div className="scroll-component">
+                   <Typewriter
+                    onInit={(typewriter) => {
+                        typewriter  
+                            .typeString("Scroll Down")
+                            .pauseFor(1000)
+                            .deleteAll()
+                        .typeString("Developed by Vinicius Soares")
+                        .start();
+                    }}
+                    />
             </div>
         </>
             
